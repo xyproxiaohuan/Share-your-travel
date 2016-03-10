@@ -89,15 +89,12 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .logo{
 	float:left;
-	padding: 2em 1em 2em 6em;
 	width: 27%;
-	background:#fff;
+  margin-left:-43px;
+	margin-top:-28px;
 }
 .top-nav{
-	float:right;
-	background:#fff;
-	width: 44%;
-	padding: 1.5em 4em;
+	background:#cccccc;
 }
 .top-nav ul li{
 	display: inline-block;
@@ -142,6 +139,7 @@ ul{
 	font-weight: 600;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1em;
+	right: -330px;
 }
 .top-nav ul li.active a {
 	color: #b66ca9;
@@ -188,6 +186,7 @@ ul{
 	padding: 0;
 	background:none;
 	margin: 0.3em 1em;
+	right: -330px;
 }
 .top-nav ul li a:hover{
 	color:#000;
@@ -210,19 +209,8 @@ ul{
 .content-about h3 span{
 	border-bottom:3px solid #c1c1c1;
 }
-.col-left{
-	float:left;
-}
-.col-left span{
-	color: #b66ca9;
-	font-size: 7em;
-	height: 155px;
-	width: 67px;
-	display: block;
-	font-weight: 500;
-}
+
 .col-right{
-	float:right;
 	width: 74%;
 	padding: 4em 0 0;
 }
@@ -296,7 +284,7 @@ color:#000;
 	position: absolute;
 	height: 100%;
 	width: 50%;
-	top: 0;
+	top: 10px;
 	left: 0;
 	background: url(../images/background2.png) repeat;
 	text-align: center;
@@ -385,9 +373,9 @@ img.zoom-img {
 	border-bottom:3px solid #c1c1c1;
 }
 .team-top{
-	background:#fff;
+	background:#ccffcc;
 	padding: 3em 3em 2em;
-	margin-right:2em;
+	margin-right:8em;
 	float:left;
 	width:23.1%;
 	position:relative;
@@ -709,7 +697,7 @@ p.sed-para{
 }
 /*--footer--*/
 .footer{
-	background:#b66ca9;
+	background:#339999;
 	text-align:center;
 	padding:4em 0;
 }
@@ -785,7 +773,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	overflow: hidden;
 }
 .team-top {
-	margin-right: 1.7em;
+	margin-right: 8em;
 }
 .top-team {
 	margin: 0;
@@ -817,8 +805,6 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .team-top {
 	width: 48%;
-}
-.team-top {
 	margin-top: 1.5em;
 }
 .team-in{
@@ -881,6 +867,7 @@ img.zoom-img {
 }
 .top-nav {
 	width: 33%;
+	background:#cccccc;
 }
 ul.callbacks_tabs.callbacks1_tabs {
 	right: 20em;
@@ -890,7 +877,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	height: 98px;
 }
 .team-top {
-	width: 47.8%;
+	width: 23.1%;
 }
 .our-para {
 	float: none;
@@ -957,7 +944,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .team-top {
 	width: 47%;
-	padding: 2em 2em 1em;
+	padding: 3em 3em 2em;
 }
 .in-profile h4, .our-mission h4, .team-set h4 {
 	font-size: 1.8em;
@@ -1221,5 +1208,4 @@ span.number {
 }
 .about-bottom {
 	padding: 1em 0 2em 0em;
-}
 }
